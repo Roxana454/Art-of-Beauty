@@ -1,0 +1,364 @@
+body {
+    margin: 0px;
+    font-family: Onest;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+p {
+    line-height: 145%;
+    font-size: 17px;
+}
+
+.header {
+    background-color: #c58e5091;
+    text-align: center;
+    padding: 0px 10px 20px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    height: 85px;
+    margin: 0px;
+}
+
+
+nav {
+    max-width: 1160px;
+    margin: 10px auto 0px auto;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    padding-top: 50px;
+}
+
+.nav-link {
+    background-color: #c58e5091;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: black;
+    margin-right: 10px;
+    backdrop-filter: blur(5px);
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.main {
+    max-width: 1160px;
+    margin: 0px auto;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+}
+
+.info {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+}
+
+.poza-eu {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.loc {
+    overflow: auto;
+    border-bottom: 3px #c58e5091 dashed;
+}
+
+
+
+.loc img {
+    height: 18vh;
+    width: 18vh;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.celula-abilitati {
+    width: 300px;
+    font-size: 18px;
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+.celula-text {
+    vertical-align: top;
+}
+
+h1 {
+    color: black;
+    margin: 0px;
+
+}
+
+h2 {
+    font-family: Kanit;
+    font-size: 4rem;
+    color: #141212c4;
+    text-align: center;
+    background-color: #c58e5091;
+    border-radius: 50px;
+}
+
+h3 {
+    text-align: center;
+
+}
+
+h5 {
+    text-align: center;
+    font-size: 2rem;
+    background-color: #c58e5091;
+}
+
+
+.text-despre {
+    margin-top: 0px;
+}
+
+.img-gal {
+    height: 18vh;
+    width: 18vh;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#transmite {
+    text-align: center;
+}
+
+.celula-img {
+    width: 25%;
+    padding: 5px;
+}
+
+.tabel-gal {
+    width: 100%;
+
+}
+
+.celula {
+    width: 65%;
+}
+
+.centered {
+    text-align: center;
+}
+
+.tabel {
+    border-width: 100%;
+    border-color: rgb(9, 9, 9);
+}
+
+.item {
+    border-bottom: 1px solid #b12424;
+    padding: 4px;
+}
+
+#despre {
+    text-align: center;
+}
+
+#contacte {
+    text-align: center;
+}
+
+.contacte,
+.cform {
+    border-radius: 10px;
+    border: 0px solid #c58e5091;
+    background-color: #c58e5091;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 270px;
+    text-align: left;
+}
+
+.row {
+    overflow: auto;
+}
+
+[class^="col-"] {
+    float: right;
+    padding: 0px 0px;
+}
+
+
+.col-50 {
+    width: 50%;
+
+}
+
+
+.contacte-info a {
+    color: black !important;
+}
+
+.contacte-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.formular-container {
+    background-color: #c58e5091;
+    padding: 0px 20px 20px 20px;
+    border: 0px solid #c58e5091;
+    /*temporar*/
+    border-radius: 10px;
+    width: 270px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.formular-container input,
+.formular-container textarea {
+    font-family: inherit;
+    width: 90%;
+    margin-bottom: 10px;
+    font-size: 0.85rem;
+    padding: 3px;
+    border-radius: 20px;
+    border: 1px solid #c58e5091;
+    text-align: left;
+    padding: 7px;
+}
+
+
+.harta {
+    width: 100%;
+    height: 60%;
+    border-radius: 5px;
+}
+
+
+#formular {
+    padding: 10px;
+}
+
+footer {
+    background-color: #c58e5091;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    width: 250px;
+    background: #fb7b7b;
+    display: none;
+}
+
+#meniu {
+    font-family: "Calibri";
+    font-size: 20px;
+    text-align: left;
+    margin-right: 0px;
+    text-indent: 0px;
+    background-color: #d1cecb91;
+    width: 600px;
+}
+
+#mesaj {
+    padding: 10px;
+}
+
+#hamburger {
+    color: black;
+    font-size: 28px;
+    position: absolute;
+    right: 42px;
+    top: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+/*media trebuie sa fie la sfirsitul fisierului */
+
+@media (max-width: 800px) {
+
+    nav {
+        display: block;
+    }
+
+    .header {
+        height: auto !important;
+    }
+
+    .nav-link {
+        display: none !important;
+    }
+
+    nav.mobile .nav-link {
+        display: block !important;
+        width: 100px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 90px 10px;
+    }
+
+    .index-info h1 {
+        font-size: 250%;
+        margin-top: 10px;
+    }
+
+    .vframe {
+        height: 55vw;
+    }
+
+    [class^="col-"] {
+        width: 100% !important;
+    }
+
+    nav a {
+        display: none;
+    }
+
+
+    nav.mobile a {
+        display: block;
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    #hamburger {
+        display: block;
+    }
+}
